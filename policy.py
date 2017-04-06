@@ -156,6 +156,7 @@ without = (
 )
 
 libertarian = (
+    "Libertarians fundamentaly allow",
     "It is a natural human right for",
     "A government's principal duty is to protect the right of",
     "Hardcore libertarians believe that we should allow",
@@ -168,6 +169,7 @@ libertarian = (
 )
 
 action = (
+    "to refuse to bake a cake for someone based on their " + choice(identity) + ".",
     "to walk their dog without " + choice(without) + ".",
     "to board an airplane without " + choice(without) + ".",
     "to buy " + choice(products) + " without " + choice(without) + ".",
