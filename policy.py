@@ -20,6 +20,8 @@ subject = (
     "five year old children",
     "progressive liberals",
     "anyone",
+    "Gary Johnson",
+    "Austin Petersen",
     "radical conservatives",
     "ethnic minorities",
     "convicted felons",
@@ -56,11 +58,15 @@ objects = (
     "explosives",
     "machetes",
     "3D printed medical equipment",
-    "paperclips"
+    "tractors",
+    "robots",
+    "paperclips",
+    "a barn"
 )
 
 products = (
     "oranges",
+    "whatever they want",
     "marijuana",
     "lemonade",
     "tamales",
@@ -81,7 +87,8 @@ action = (
     "to sell " + choice(products) + " without a permit.",
     "to take down trees with " + choice(objects) + " on their own property.",
     "to paint their house without a city permit.",
-    "to build a barn in their backyard without a permit."
+    "to get married without the government's permission.",
+    "to build " + choice(objects) + " in their backyard without a permit."
 )
 
 
