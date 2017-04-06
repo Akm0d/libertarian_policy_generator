@@ -32,7 +32,7 @@ def favicon():
 
 @app.route("/")
 def index():
-    text=""
+    text="foooooo"
     return flask.render_template('index.html', title="Libertarian Policy Generator", text=text)
 
 
