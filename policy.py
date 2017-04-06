@@ -145,11 +145,15 @@ products = (
 )
 
 without = (
-    "paying a tax",
+    "paying a sales tax",
     "a permit",
     "government approval",
+    "a license",
+    "being investigated",
+    "competing with a government created monopoly",
     "the government's permission",
-    "consent",
+    "full body searches",
+    "background checks",
     "a city permit"
 )
 
@@ -157,7 +161,6 @@ libertarian = (
     "It is a natural human right for",
     "A government's principal duty is to protect the right of",
     "Hardcore libertarians believe that we should allow",
-    "The difference between libertarianism and socialism is that libertarians will tolerate",
     "Unlike the " + choice(party) + "s libertarians would allow",
     "A truly free society must allow",
     "To truly be liberated we must enable",
@@ -167,6 +170,8 @@ libertarian = (
 )
 
 action = (
+    "to walk their dog without " + choice(without) + ".",
+    "to board an airplane " + choice(without) + ".",
     "to buy " + choice(products) + " without " + choice(without) + ".",
     "to continue living on property they have already purchased without " + choice(without) + ".",
     "to collect " + choice(products) + ".",
