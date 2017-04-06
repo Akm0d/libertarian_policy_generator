@@ -38,6 +38,9 @@ identity = (
 
 party = (
     "Independant",
+    "Conservative",
+    "Liberal",
+    "Leftist",
     "Republican",
     "Democrat",
     "Facist",
