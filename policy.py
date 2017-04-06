@@ -169,7 +169,7 @@ libertarian = (
 
 action = (
     "to walk their dog without " + choice(without) + ".",
-    "to board an airplane " + choice(without) + ".",
+    "to board an airplane without " + choice(without) + ".",
     "to buy " + choice(products) + " without " + choice(without) + ".",
     "to continue living on property they have already purchased without " + choice(without) + ".",
     "to collect " + choice(products) + ".",
