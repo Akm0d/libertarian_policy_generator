@@ -40,10 +40,10 @@ objects = (
 
 action = (
     "to fire people based only on their " + choice(identity) + ".",
-    "to own and operate " + choice(objects) + "."
-    "to perform open heart surgery with a " + choice(objects) + ".",
-    "to defend their marijuana fields with " + choice(objects) + "."
-    "to sell lemonade without a permit"
+    "to own and operate " + choice(objects) + ".",
+    "to perform open heart surgery with " + choice(objects) + ".",
+    "to defend their marijuana fields with " + choice(objects) + ".",
+    "to sell lemonade without a permit."
 )
 
 
