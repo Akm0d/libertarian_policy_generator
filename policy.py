@@ -59,7 +59,7 @@ objects = (
 )
 
 products = (
-    "oragnes",
+    "oranges",
     "marijuana",
     "lemonade",
     "tamales",
