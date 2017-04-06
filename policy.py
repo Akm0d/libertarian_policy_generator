@@ -4,6 +4,9 @@ from random import choice
 
 
 libertarian = (
+    "A government's principal duty is the right of",
+    "Hardcore libertarians believe that we should let",
+    "The difference between libertarianism and socialism is that libertarians will tolerate",
     "A truly free society must allow",
     "To truly be liberated we must enable",
     "It is a fundamental right for",
@@ -25,6 +28,9 @@ subject = (
 )
 
 identity = (
+    "skill level",
+    "ability",
+    "education",
     "sexual orientation",
     "race",
     "religion",
@@ -38,12 +44,25 @@ objects = (
     "fully automatic machine guns"
 )
 
+products = (
+    "marijuana",
+    "lemonade",
+    "tamales",
+    "firearms",
+    "property",
+    "gasoline"
+)
+
 action = (
+    "to buy " + choice(products) + " without paying sales tax",
+    "to continue living on propery they have already purchased.",
+    "to collect rainwater."
     "to fire people based only on their " + choice(identity) + ".",
+    "to hire people based only on their " + choice(identity) + ".",
     "to own and operate " + choice(objects) + ".",
     "to perform open heart surgery with " + choice(objects) + ".",
     "to defend their marijuana fields with " + choice(objects) + ".",
-    "to sell lemonade without a permit."
+    "to sell " + choice(products) + " without a permit."
 )
 
 
