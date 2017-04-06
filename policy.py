@@ -61,14 +61,17 @@ products = (
 
 action = (
     "to buy " + choice(products) + " without paying sales tax",
-    "to continue living on property they have already purchased.",
+    "to continue living on property they have already purchased without a continual property tax.",
     "to collect rainwater.",
     "to fire people based only on their " + choice(identity) + ".",
     "to hire people based only on their " + choice(identity) + ".",
     "to own and operate " + choice(objects) + ".",
     "to perform open heart surgery with " + choice(objects) + ".",
     "to defend their marijuana fields with " + choice(objects) + ".",
-    "to sell " + choice(products) + " without a permit."
+    "to sell " + choice(products) + " without a permit.",
+    "to take down trees with " + choice(objects) + " on their own property.",
+    "to paint their house without a city permit.",
+    "to build a barn in their backyard without a permit."
 )
 
 
