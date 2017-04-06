@@ -84,14 +84,14 @@ profession = (
     "surgeon",
     "veterinarian",
     "accountant",
-    "actuarie",
+    "actuary",
     "architect",
     "engineer",
-    "linguistic",
+    "linguist",
     "translator",
     "interpreter",
     "surveyor",
-    "urban Planner",
+    "urban planner",
     "air traffic controller",
     "aircraft pilot",
     "scientist",
@@ -114,9 +114,9 @@ profession = (
 )
 
 adjective = (
-    "femminist",
-    "chovenist",
-    "polygymist"
+    "feminist",
+    "chauvenist",
+    "polygamist"
 )
 
 objects = (
@@ -161,10 +161,10 @@ without = (
 )
 
 libertarian = (
-    "Libertarians fundamentaly allow",
+    "Libertarians fundamentally allow",
     "It is a natural human right for",
     "A government's principal duty is to protect the right of",
-    "Hardcore libertarians believe that we should allow",
+    "Hardcore Libertarians believe that we should allow",
     "Unlike the " + choice(party) + "s, libertarians would allow",
     "A truly free society must allow",
     "To truly be liberated we must enable",
