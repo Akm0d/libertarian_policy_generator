@@ -158,7 +158,7 @@ libertarian = (
     "A government's principal duty is to protect the right of",
     "Hardcore libertarians believe that we should allow",
     "The difference between libertarianism and socialism is that libertarians will tolerate",
-    "Unlike the" + choice(party) + "s libertarians would allow",
+    "Unlike the " + choice(party) + "s libertarians would allow",
     "A truly free society must allow",
     "To truly be liberated we must enable",
     "It is a fundamental right for",
