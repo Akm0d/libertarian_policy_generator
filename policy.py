@@ -51,7 +51,10 @@ objects = (
     "coat hangers",
     "fully automatic machine guns",
     "land mines",
-    "calculators",
+    "gasoline",
+    "explosives",
+    "machetes",
+    "3D printed medical equipment",
     "paperclips"
 )
 
