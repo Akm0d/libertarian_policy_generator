@@ -154,7 +154,6 @@ without = (
 )
 
 libertarian = (
-    "",
     "It is a natural human right for",
     "A government's principal duty is to protect the right of",
     "Hardcore libertarians believe that we should allow",
