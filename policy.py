@@ -4,7 +4,7 @@ from random import choice
 
 
 libertarian = (
-    "A government's principal duty is the right of",
+    "A government's principal duty is to protect the right of",
     "Hardcore libertarians believe that we should let",
     "The difference between libertarianism and socialism is that libertarians will tolerate",
     "A truly free society must allow",
