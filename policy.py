@@ -46,7 +46,6 @@ party = (
     "Socialist",
     "statist",
     "Progressive",
-    "Constitutionalist",
     "Nazi"
 )
 
@@ -57,7 +56,6 @@ profession = (
     "potato farmer",
     "mechanic",
     "medical doctor",
-    "congress representative",
     "fast food server",
     "professor",
     "teacher",
