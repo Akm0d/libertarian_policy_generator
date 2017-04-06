@@ -5,7 +5,7 @@ from random import choice
 
 libertarian = (
     "A government's principal duty is to protect the right of",
-    "Hardcore libertarians believe that we should let",
+    "Hardcore libertarians believe that we should allow",
     "The difference between libertarianism and socialism is that libertarians will tolerate",
     "A truly free society must allow",
     "To truly be liberated we must enable",
@@ -39,7 +39,7 @@ identity = (
     "religion",
     "gender",
     "political beliefs",
-    "prefered brand of vehicle"
+    "preferred brand of vehicle"
 )
 
 objects = (
