@@ -32,12 +32,12 @@ subject = (
     "gay couples "
 )
 
-action = {
+action = (
     "to fire people based only on their sexual orientation.",
     "to own and operate rocket launchers.",
     "to perform open heart surgery with a coat hanger.",
     "can defend their marijuana fields with fully automatic machine guns."
-}
+)
 
 
 root = "notes"
