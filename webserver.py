@@ -13,23 +13,24 @@ SUPPORTED_ERROR_CODES = {428, 429, 400, 401, 403, 404, 405, 406, 408, 409, 410, 
 
 
 libertarian = (
-    "A truly free society must allow ",
-    "To truly be liberated we must enable ",
-    "It is a fundamental right for ",
-    "After we take over and leave everyone alone, we will authorize ",
-    "Only in a Libertarian utopia will we enable ",
-    "Unlike the Statists, we will allow "
+    "A truly free society must allow",
+    "To truly be liberated we must enable",
+    "It is a fundamental right for",
+    "After we take over and leave everyone alone, we will authorize",
+    "Only in a Libertarian utopia will we enable",
+    "Unlike the Statists, we will allow"
 )
 
 subject = (
-    "five year old children ",
-    "ethnic minorities ",
-    "convicted felons ",
-    "college students ",
-    "Ron Paul, Rand Paul, and Ayn Rand ",
-    "the homeless ",
-    "business owners ",
-    "gay couples "
+    "five year old children",
+    "ethnic minorities",
+    "convicted felons",
+    "college students",
+    "priviliged white males",
+    "Ron Paul, Rand Paul, and Ayn Rand",
+    "the homeless",
+    "business owners",
+    "gay couples"
 )
 
 action = (
@@ -63,7 +64,7 @@ def favicon():
 
 @app.route("/")
 def index():
-    text = choice(libertarian) + choice(subject) + choice(action)
+    text = choice(libertarian) + " " +  choice(subject) +  " " + choice(action)
     return flask.render_template('index.html', title="Libertarian Policy Generator", text=text)
 
 
