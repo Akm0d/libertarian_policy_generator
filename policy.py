@@ -4,7 +4,7 @@ from random import choice
 
 
 libertarian = (
-    "It is a natural human right for ",
+    "It is a natural human right for",
     "A government's principal duty is to protect the right of",
     "Hardcore libertarians believe that we should allow",
     "The difference between libertarianism and socialism is that libertarians will tolerate",
