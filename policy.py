@@ -193,5 +193,6 @@ def get_policy():
 
 
 if __name__ == "__main__":
+    print("\n\n\n")
     print(get_policy())
 
