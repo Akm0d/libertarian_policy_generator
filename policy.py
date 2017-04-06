@@ -203,6 +203,8 @@ if __name__ == "__main__":
     print("<html>"
           "<head><title>Libertarian Policy Generator</title></head>"
           "<body>"
+          "<br>"
+          "<br>"
           "<p>%s</p>"
           "</body>"
           "</html>"
