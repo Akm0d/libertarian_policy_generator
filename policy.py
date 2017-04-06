@@ -4,6 +4,7 @@ from random import choice
 
 
 libertarian = (
+    "It is a natural human right for ",
     "A government's principal duty is to protect the right of",
     "Hardcore libertarians believe that we should allow",
     "The difference between libertarianism and socialism is that libertarians will tolerate",
@@ -17,6 +18,8 @@ libertarian = (
 
 subject = (
     "five year old children",
+    "progressive liberals",
+    "radical conservatives",
     "ethnic minorities",
     "convicted felons",
     "college students",
@@ -31,6 +34,7 @@ subject = (
 )
 
 identity = (
+    "favorite color",
     "skill level",
     "ability",
     "education",
@@ -47,10 +51,12 @@ objects = (
     "coat hangers",
     "fully automatic machine guns",
     "land mines",
-    "calculators"
+    "calculators",
+    "paperclips"
 )
 
 products = (
+    "oragnes",
     "marijuana",
     "lemonade",
     "tamales",
