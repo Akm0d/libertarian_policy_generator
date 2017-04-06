@@ -24,7 +24,10 @@ subject = (
     "Ron Paul, Rand Paul, and Ayn Rand",
     "the homeless",
     "business owners",
-    "gay couples"
+    "gay couples",
+    "people driving cars",
+    "large corporations",
+    "the 1%"
 )
 
 identity = (
@@ -35,13 +38,16 @@ identity = (
     "race",
     "religion",
     "gender",
-    "political beliefs"
+    "political beliefs",
+    "prefered brand of vehicle"
 )
 
 objects = (
     "rocket launchers",
     "coat hangers",
-    "fully automatic machine guns"
+    "fully automatic machine guns",
+    "land mines",
+    "calculators"
 )
 
 products = (
