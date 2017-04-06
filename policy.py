@@ -200,5 +200,12 @@ def get_policy():
 
 
 if __name__ == "__main__":
-    print(get_policy())
+    print("<html>"
+          "<head><title>Libertarian Policy Generator</title></head>"
+          "<body>"
+          "<p>%s</p>"
+          "</body>"
+          "</html>"
+           % get_policy()
+          )
 
