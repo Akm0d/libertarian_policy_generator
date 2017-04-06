@@ -144,6 +144,7 @@ products = (
 
 without = (
     "paying a sales tax",
+    "being fined",
     "a permit",
     "government approval",
     "a license",
