@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # coding=utf-8
+from random import choice
 import argparse
 import flask
 import re
@@ -9,6 +10,36 @@ import os
 SECURE = False
 SUPPORTED_ERROR_CODES = {428, 429, 400, 401, 403, 404, 405, 406, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418,
                          422, 431, 500, 501, 502, 503, 504, 505}
+
+
+libertarian = (
+    "A truly free society must allow ",
+    "To truly be liberated we must enable ",
+    "It is a fundamental right for ",
+    "After we take over and leave everyone alone, we will authorize ",
+    "Only in a Libertarian utopia will we enable ",
+    "Unlike the Statists, we will allow "
+)
+
+subject = (
+    "five year old children ",
+    "ethnic minorities ",
+    "convicted felons ",
+    "college students ",
+    "Ron Paul, Rand Paul, and Ayn Rand ",
+    "the homeless ",
+    "business owners ",
+    "gay couples "
+)
+
+action = {
+    "to fire people based only on their sexual orientation.",
+    "to own and operate rocket launchers.",
+    "to perform open heart surgery with a coat hanger.",
+    "can defend their marijuana fields with fully automatic machine guns."
+}
+
+
 root = "notes"
 
 # App variables
@@ -16,7 +47,7 @@ app = flask.Flask(__name__)
 
 
 def page_error(error):
-    text = "Please try again"
+    text="Try again"
     return flask.render_template('index.html', page_name=str(error), text=text, title="Error")
 
 
@@ -32,7 +63,7 @@ def favicon():
 
 @app.route("/")
 def index():
-    text="foooooo"
+    text = choice(libertarian) + choice(subject) + choice(action)
     return flask.render_template('index.html', title="Libertarian Policy Generator", text=text)
 
 
