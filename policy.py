@@ -25,11 +25,21 @@ subject = (
 )
 
 action = (
-    "to fire people based only on their sexual orientation.",
+    "to fire people based only on their #identity.",
     "to own and operate rocket launchers.",
     "to perform open heart surgery with a coat hanger.",
-    "to defend their marijuana fields with fully automatic machine guns."
+    "to defend their marijuana fields with fully automatic machine guns.",
+    "to sell lemonade without a permit"
 )
+
+identity = (
+    "sexual orientation",
+    "race",
+    "religion",
+    "gender",
+    "political beliefs"
+)
+
 
 def get_policy():
     return choice(libertarian) + " " +  choice(subject) +  " " + choice(action)
