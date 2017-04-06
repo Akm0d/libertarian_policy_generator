@@ -62,7 +62,7 @@ products = (
 action = (
     "to buy " + choice(products) + " without paying sales tax",
     "to continue living on propery they have already purchased.",
-    "to collect rainwater."
+    "to collect rainwater.",
     "to fire people based only on their " + choice(identity) + ".",
     "to hire people based only on their " + choice(identity) + ".",
     "to own and operate " + choice(objects) + ".",
