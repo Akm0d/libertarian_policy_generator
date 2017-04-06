@@ -194,7 +194,7 @@ action = (
 )
 
 # Styles that will be applied to the text
-style = "color:blue;"
+style = "color:blue; font-size:52px;"
 
 def get_policy():
     return choice(libertarian) + " " +  choice((choice(subject),choice(profession) + "s")) +  " " + choice(action)
