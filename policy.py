@@ -193,7 +193,8 @@ action = (
     "to build " + choice(objects) + " in their backyard without " + choice(without) + "."
 )
 
-
+# Styles that will be applied to the text
+style = "color:blue;"
 
 def get_policy():
     return choice(libertarian) + " " +  choice((choice(subject),choice(profession) + "s")) +  " " + choice(action)
@@ -203,11 +204,9 @@ if __name__ == "__main__":
     print("<html>"
           "<head><title>Libertarian Policy Generator</title></head>"
           "<body>"
-          "<br>"
-          "<br>"
-          "<p>%s</p>"
+          "<p style=\"%s\">%s</p>"
           "</body>"
           "</html>"
-           % get_policy()
+           % (style,get_policy())
           )
 
